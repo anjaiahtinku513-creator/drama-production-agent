@@ -1,0 +1,22 @@
+{
+  "name": "drama-production-agent",
+  "version": "0.2.0",
+  "description": "星幕短剧与漫剧 Agent：融合编剧、美术资产、角色表演、动作特效、空间摄影、轻动作与制作核验；图像使用 Codex 内置工具，视频待接入。",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "星幕 · 短剧与漫剧 Agent",
+    "shortDescription": "编剧、美术、表演、动作与空间摄影；完整导演稿和制作核验",
+    "longDescription": "从小说、点子或已有项目推进短剧、动态漫剧和静态漫剧。内置编剧改编、视觉资产、情绪表演、动作特效、空间摄影与轻动作方法，按镜头需要加载，输出完整逐拍导演稿并追踪首尾状态与局部返修。图像固定使用 Codex 内置 image_gen；视频工具待用户指定接入。生成可靠性包含参数检查、作业绑定、结果未知恢复与实际文件核验。与独立同名 Skill 保持一致，同一任务只使用一个入口。",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "把我的故事改成一集漫剧，先完成剧本和分镜。",
+      "使用 Codex 内置图像工具生成角色参考图和分镜关键帧。",
+      "接入我提供的视频生成工具，先核实能力并准备测试计划。"
+    ]
+  }
+}

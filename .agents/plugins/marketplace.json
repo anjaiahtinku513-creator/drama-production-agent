@@ -1,0 +1,20 @@
+{
+  "name": "xingmu",
+  "interface": {
+    "displayName": "星幕"
+  },
+  "plugins": [
+    {
+      "name": "drama-production-agent",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
